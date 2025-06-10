@@ -12,40 +12,40 @@ body{
 /* ========== Header ========== */
 .header{
     display: flex;
-    background-color: #ADD8E7;
+    background-color: #3160E0;
     justify-content: center;
-    padding: 20px 0;
+    padding-top: 10px;
 }
 
 .container-nav{
     display: flex;
-    background-color: #DAA51E;
+    background-color: #3160E0;
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     align-items: center;
-    border: 1px dashed black;
 }
 
 .nav-item.links a{
-    text-decoration: none;
-    color: black;
-    margin: 0 10px;
-    border: none;
-  
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .nav-item.links{
-    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
 }
 
 .nav-item.logo{
-    border-right: 3px dotted black;
     text-align: left;
 }
 
 .nav-item.login{
-    border-left: 3px dotted black;
     text-align: right;
     
 }
