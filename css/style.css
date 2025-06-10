@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1;
+}
+
+/* ========== Header ========== */
+.header{
+    display: flex;
+    background-color: #ADD8E7;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.container-nav{
+    display: flex;
+    background-color: #DAA51E;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px dashed black;
+}
+
+.nav-item.links a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    border: none;
+  
+}
+
+.nav-item.links{
+    border: none;
+}
+
+.nav-item.logo{
+    border-right: 3px dotted black;
+    text-align: left;
+}
+
+.nav-item.login{
+    border-left: 3px dotted black;
+    text-align: right;
+    
+}
+
+.nav-item {
+  flex: 1;
+  padding: 8px 16px;
+  text-align: center;
+}
+/* ========== Sections ========== */
+
+/* --- SEZIONE 1 --- */
+.section.bg-dark-blue {
+  background-color: #00018B;
+  padding: 90px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.box.big.bg-dark-pink {
+  background-color: #ee82ee;
+  width: 40%;
+  height: 250px;
+  margin: 0 auto;
+  border: 2px dotted black;
+}
+/* --- SEZIONE 2,3,4 --- */
+
+.section.bg-white {
+  background-color: #ffffff;
+  padding: 60px 0;
+}
+
+.section.bg-light-gray {
+  background-color: #D3D3D3;
+  padding: 60px 0;
+}
+
+.section .container-sm {
+  display: flex;
+  justify-content: center;
+}
+.box.half {
+  width: 400px;
+  height: 250px;
+  border: 2px dotted black;
+}
+
+.bg-blue {
+  background-color: #1E90FF;
+}
+
+.bg-pink {
+  background-color: #FFC0CA;
+}
+
+/* --- SEZIONE 5 --- */
+
+.box.big.bg-green {
+  width: 40%;
+  height: 250px;
+  background-color: #228b22;
+  border: 2px dotted black;
+  margin: 0 auto;
+}
+
+/* ========== Footer top ========== */
+
+.section.bg-dark-gray {
+  background-color: #23272A;
+  padding: 60px 0;
+}
+.section.bg-dark-gray .container-sm{
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+.box.wide.bg-salmon {
+  width: 20%;
+  height: 500px;
+  background-color: #F08180;
+  border: 2px dotted black;
+
+}
+.box.long.bg-turquoise {
+  width: 15%;
+  height: 500px;
+  background-color: #40e0d0;
+  border: 2px dotted white;
+}
+
+/* ========== Footer bottom ========== */
+
+.footer-sm{
+  background-color: #23272A;
+  border: 1px solid white;
+
+}
+
+.footer-base{
+  background-color: #7FFFD4;
+  width: 80%;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  margin-top: 20px;
+  height: 50px;                    
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+}
+.logo-small, .bottom-text {
+  background-color: #FDB7C1;
+  border: 3px dotted black;
+  margin: 0;
+  padding: 5px 5px;
+}
+====== Color Classes ======
+.bg-#DAA51E yellow
+.bg-#00018B dark blue
+.bg-#EF82ED dark pink
+.bg-#ADD8E7 light blue
+.bg-#D3D3D3 light gray
+.bg-#1E90FF blue
+.bg-#FFC0CA pink
+.bg-#23272A dark gray
+.bg-#2033AA turquoise
+.bg-#7FFFD4 aquamarine
+.bg-#FDB7C1 light pink
+.bg-#F08180 salmon
