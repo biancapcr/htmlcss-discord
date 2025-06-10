@@ -1,4 +1,4 @@
-Discord
+Discord Homepage
 ===
 **Descrizione**
 Riproduciamo il layout come da screenshot cercando di essere il più fedeli possibili.
