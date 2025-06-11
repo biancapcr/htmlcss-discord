@@ -68,15 +68,14 @@ body{
 /* ========== Sections ========== */
 
 /* --- SEZIONE 1 --- */
-.section.bg-dark-blue {
-  background-color: #255EE9;
-  padding: 90px 0;
+
+.bg-jumbotron{
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.jumbo-img {
-  width: 100%;
-  height: auto;
-}
+
 .box.big.bg-dark-pink {
   width: 100%;
   max-height: 600px;
