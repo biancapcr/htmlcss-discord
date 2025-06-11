@@ -69,21 +69,22 @@ body{
 
 /* --- SEZIONE 1 --- */
 
+.section{
+  padding: 150px 0;
+}
+
 .bg-jumbotron{
   background-image: url("../img/jumbo.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-
 .box.big.bg-dark-pink {
   width: 100%;
-  max-height: 600px;
+  justify-content: center;
+  text-align: center;
 }
 
-.container-sm{
-  flex: 1;
-}
 .container-sm h1 {
   font-size: 3rem;
   color: white;
