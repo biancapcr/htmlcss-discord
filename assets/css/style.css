@@ -65,6 +65,10 @@ body{
 
 /* --- SEZIONE 1 --- */
 
+.section{
+  padding: 150px 0;
+}
+
 .bg-jumbotron{
   background-image: url("../img/jumbo.png");
   background-size: cover;
