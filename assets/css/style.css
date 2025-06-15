@@ -232,68 +232,57 @@ body{
   max-width: 500px;
 }
 /* ========== Footer top ========== */
-.section.bg-dark-gray{
+.footer-top{
   background-color: #23272A;
   padding: 60px 0;
+  color: white;
 }
-.section.bg-dark-gray .container-sm{
+.footer-top .container-sm{
   display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
 }
-.box.wide.bg-salmon{
-  width: 20%;
-  height: 500px;
-  background-color: #F08180;
-
+.footer-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #8EA1E2;
+  margin-bottom: 50px;
 }
-.box.long.bg-turquoise{
-  width: 15%;
-  height: 500px;
-  background-color: #40e0d0;
-  border: 2px dotted white;
+.footer-lang{
+  margin-bottom: 20px;
+  font-size: 14px;
 }
-
+.footer-top .col ul{
+  list-style: none;
+  padding: 0;
+}
+.footer-top .col ul li{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.footer-top .col ul li strong{
+  color: #8EA1E2;
+  font-size: 15px;
+}
+.footer-socials i{
+  font-size: 18px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.ita-flag{
+  width: 10%;
+}
 /* ========== Footer bottom ========== */
-
-.footer-sm{
-  background-color: #23272A;
-  border: 1px solid white;
-}
-
 .footer-base{
-  background-color: #7FFFD4;
-  width: 80%;
-  margin: 0 auto; 
+  background-color: #23272A;
+  padding: 20px 0;
+}
+.footer-bottom{
   display: flex;
   justify-content: space-between;
-  align-items: center; 
-  margin-top: 20px;
-  height: 50px;                    
+  align-items: center;
 }
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0;
+.footer-logo img{
+  height: 30px;
 }
-.logo-small, .bottom-text {
-  background-color: #FDB7C1;
-  border: 3px dotted black;
-  margin: 0;
-  padding: 5px 5px;
-}
-====== Color Classes ======
-.bg-#DAA51E yellow
-.bg-#00018B dark blue
-.bg-#EF82ED dark pink
-.bg-#ADD8E7 light blue
-.bg-#D3D3D3 light gray
-.bg-#1E90FF blue
-.bg-#FFC0CA pink
-.bg-#23272A dark gray
-.bg-#2033AA turquoise
-.bg-#7FFFD4 aquamarine
-.bg-#FDB7C1 light pink
-.bg-#F08180 salmon
-.br-#8EA1E2 lavender
